@@ -24,7 +24,7 @@
 Child 1  = https://github.com/ReyazShaik/devsecops-Tetris-V1  
 Child 2  = https://github.com/ReyazShaik/devsecops-tetris-v2  
 
-Head repo = https://github.com/AreParameswarudu/devsecops-for-Tetris-game-deployment-with-multiple-versions
+Head repo = https://github.com/AreParameswarudu/devsecops-for-Tetris-game-deployment-with-versioned-deployments
 
 ## Action:
   * **EKS cluster** that will be provisioned (and destroyed) **using terraform** (that too with a jenkins pipeline with build parameters) to address the zero downtime, to adhere to increased users interactions.
