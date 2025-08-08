@@ -23,7 +23,7 @@
 
 
 ## Action:
-  *** EKS cluster** that will be provisioned (and destroyed) **using terraform** (that too with a jenkins pipeline with build parameters) to address the zero downtime, to adhere to increased users interactions.
+  * **EKS cluster** that will be provisioned (and destroyed) **using terraform** (that too with a jenkins pipeline with build parameters) to address the zero downtime, to adhere to increased users interactions.
   * Use of sonarqube, trivy, owasp for quality , dependicies check.
   * Use of different repos for each version of game as child repos where developers work, and using an another head repo that has the details of deployment and latest image of application, 
     differenciating any accidental PRs ( push requests) to not ot trigger the pipeline.
