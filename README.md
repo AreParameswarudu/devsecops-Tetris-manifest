@@ -13,14 +13,18 @@
   * Each version is maintained in different repo.
   * Use a head repo that contain latest versions details,  that will be updated with latest docker image from docker hub.
 
-    <img width="1038" height="545" alt="Architecture" src="https://github.com/user-attachments/assets/8efe8eba-e071-4d93-ac12-bb64cc38a50b" />
+   <img width="900" height="545" alt="image" src="https://github.com/user-attachments/assets/ff1c05e6-8a01-4948-9af9-81458e431067" />
 
  ###  The flow that i will be following,   
   * Child repos ( where developers work for updating the version of application ), each repo is for each version.  
   * Head repo ( which contains the latest version ) for deployment.
 
-   <img width="855" height="492" alt="image" src="https://github.com/user-attachments/assets/bee6fe27-f0a9-4d3f-8a8b-5d6188c14b55" />
+   <img width="900" height="492" alt="image" src="https://github.com/user-attachments/assets/ca3182fa-656d-4bbf-879d-066620c169fa" />
 
+Child 1  = https://github.com/ReyazShaik/devsecops-Tetris-V1  
+Child 2  = https://github.com/ReyazShaik/devsecops-tetris-v2  
+
+Head repo = https://github.com/AreParameswarudu/devsecops-for-Tetris-game-deployment-with-multiple-versions
 
 ## Action:
   * **EKS cluster** that will be provisioned (and destroyed) **using terraform** (that too with a jenkins pipeline with build parameters) to address the zero downtime, to adhere to increased users interactions.
