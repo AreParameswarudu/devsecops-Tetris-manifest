@@ -34,6 +34,13 @@ Head repo = https://github.com/AreParameswarudu/devsecops-for-Tetris-game-deploy
   * pipeline will also update the image in docker, and head repo with latest for that credentials will also be embended with jenkins credentials.
   * use of **load balancer** and r53 to server the application to users ( included in service section the deployment.yml file in the head repo.)
   * For deployment into eks and to have version updates or rolling updates, **argocd** was used.
+
+   Setting up EKS cluster suing **TERRAFORM** in throught parameterised jenkins pipeline.
+   <img width="1900" height="415" alt="Screenshot 2025-08-09 113537" src="https://github.com/user-attachments/assets/b9ed41a1-16b0-48d1-82b4-bf5d5371e798" />
+
+   Deployming application with jenkins pipeline.
+   <img width="1902" height="266" alt="Screenshot 2025-08-09 120935" src="https://github.com/user-attachments/assets/5fc339b4-f265-4353-9368-dcbcca5011b0" />
+
     
 ## Result:
   * A application that is resilient with increased user interactions.
@@ -42,3 +49,9 @@ Head repo = https://github.com/AreParameswarudu/devsecops-for-Tetris-game-deploy
   * No downtime
   * high availability
   * argocd and jenkins will take care of new pushes  and rolling updates of application.
+
+    <img width="900" height="501" alt="image" src="https://github.com/user-attachments/assets/14a8a407-2ecf-451f-b815-bf4a4a348cd8" />
+
+
+    <img width="900" height="509" alt="image" src="https://github.com/user-attachments/assets/0e648c5d-27a8-43a5-b374-df883e5acebc" />
+
